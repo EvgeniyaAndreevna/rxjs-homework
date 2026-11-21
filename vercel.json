@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/messages/:path*", "destination": "/api/index" },
+    { "source": "/posts/:path*", "destination": "/api/index" },
+    { "source": "/health", "destination": "/api/index" }
+  ]
+}
